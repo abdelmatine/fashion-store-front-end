@@ -1,0 +1,22 @@
+.header {
+    /* Add other necessary styles here */
+    position: relative;
+    z-index: 100;
+  }
+  
+  .header.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar.active {
+    right: 0;
+  }
+  
+  .overlay.active {
+    opacity: 0.7;
+  }
+  
